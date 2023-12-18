@@ -1,0 +1,172 @@
+
+.item1 { grid-area: header; }
+.item2 { grid-area: nav; }
+.item3 { grid-area: article; }
+.item4 { grid-area: aside; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'nav article article article article aside'
+    'footer footer footer footer footer footer';
+  gap: 0px;
+  background-color: #F1F6F9;
+  padding: 5px;
+  margin: 0px;
+  height: auto;
+  width: auto;
+  
+}
+
+.grid-container > div {
+  background-color: #F1F6F9;
+  padding: 0px;
+  font-size: 30px;
+  
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F1F6F9;
+    color: #161A30;
+    
+   
+}
+
+header {
+  background-color: #212A3E;
+  color: #F1F6F9;
+  padding: 10px;
+  margin: 0px;
+  height: 100%;    
+}
+
+
+
+nav {
+ 
+  background: #9BA4B5;
+  list-style-type: none;
+  width: 100%;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+  color: #F1F6F9;
+  height: 100%;
+  
+}
+
+
+
+article {
+  background-color: #F1F6F9;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+  
+      }
+
+
+
+aside {
+  background-color: #F1F6F9;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  text-align: center; 
+}
+
+footer {
+   background-color: #394867;
+   padding: 50px;
+   text-align: center;
+   color: #F1F6F9;
+  
+      }
+
+  a:link, a:visited {
+        color: white;
+        padding: 20px 20px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+      }
+      
+      a:hover {
+       text-decoration: underline;
+      }
+ #score {
+  color: #212A3E;
+  font-size: 20px;
+ }     
+
+.boston {
+  height: 200px;
+  float: right;
+  padding: 10px;
+}
+
+ .map {
+   height: 300px;
+   width: 300px;
+  background-color: #F1F6F9;
+  position: relative;
+  padding: 0px;
+        
+ }
+
+
+ #northham {
+  height: 300px;
+  width: 300px;
+  float: right;
+  padding: 0px, 50px, 50px, 0px;
+ }
+
+ table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+
+
+  /*@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    } */
+  

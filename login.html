@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Log In Page</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+<body>
+  <script src="/myScript.js"></script>
+
+<div class="grid-container">
+
+  <div class="item1">
+      <header>
+        <h1 class="b">Log In</h1>
+        </header>
+  </div>
+   
+
+  <div class="item2">
+  
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="boston.html">Boston</a></li>
+            <li><a href="northhampton.html">Northhampton</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+    
+        </nav>
+  </div>   
+  <div class="item3">    
+    <article>  
+      
+      
+      <form action="/action_page.php" method="post">
+        
+      
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Jane"><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe"><br>
+           <!-- <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="janedoe@email.com" required> <br>
+            <label for="email">Confirm email:</label>
+            <input type="email" id="emailC" name="emailC" placeholder="janedoe@email.com" required> <br>
+            <input type="submit" value="Submit">-->
+        <!--<form id="theForm">
+          Email address:<br>
+          <input name="email_1" type="text"><br>
+          Confirm Email address:<br>
+          <input name="email_2" type="text"><br>
+          <input type="submit">
+         
+        </form>-->
+        <form class="theForm">
+          <input type="email" id="email1" class="fields" name="email" placeholder="Email Address" required>
+          <input type="email" id="email2" class="fields" placeholder="Confirm Email Address" >
+          <input name="submit" id="submit" class="fields" type="submit" disabled value="Email Addresses Do Not Match">
+       </form>
+     
+    </article>
+  </div>
+  <div class="item4">  
+    <aside>
+        
+        <img src="https://www.travelandleisure.com/thmb/OxTfa-TTiGTLm_jUvSw2egK7eSs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/boston-massachusetts-BOSTONTG0221-719aef2eeb1c4929b6c839715e34a69e.jpg" alt="Image of Boston" class="boston">
+      
+    </aside>
+  </div> 
+    
+
+
+  <div class="item5">
+    <footer>
+        <p>Visit Soon!</p>
+      </footer>
+  </div>
+
+</div>
+</body>
+</html>
